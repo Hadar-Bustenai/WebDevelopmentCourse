@@ -1,0 +1,249 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body {
+    direction: rtl;
+    background-color: aliceblue;
+    font-family: Alef;
+}
+
+#container {
+    font-family: Alef;
+    width: 960px;
+    height: 450px;
+    margin: 0px auto;
+    background-image: url(../img/stu.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-border-radius: 100px 100px 0px 0px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+h1 {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 72pt;
+    color: darkblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#first {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 48pt;
+    color: darkblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#first2 {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 30pt;
+    color: darkblue;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#line {
+    width: 1100px;
+    height: 250px;
+    background-color: darkblue;
+    margin-right: -70px;
+    margin-top: 130px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#edu {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 25px;
+    background-image: url(../img/teacher-pointing-blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+#tech {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 385px;
+    background-image: url(../img/laptop.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+#des {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 200px;
+    margin-top: 15px;
+    margin-right: 730px;
+    background-image: url(../img/paint-and-brush.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+h2 {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 170px;
+}
+
+#line p {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    width: 160px;
+    height: 150px;
+    margin-right: 170px;
+}
+
+
+h3 {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    color: darkblue;
+}
+
+.more {
+    margin-top: 70px;
+}
+
+    .more p {
+        font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+        font-size: 14pt;
+        text-align: center;
+        color: darkblue;
+        margin-top: 15px;
+    }
+
+ul li {
+    list-style-type: circle;
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    color: darkblue;
+    margin-top: 10px;
+    width: 700px;
+    margin-right: 150px;
+}
+
+#tofes {
+    border: hidden;
+    background-color: darkblue;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 80px;
+}
+
+#contect {
+    font-size: 20pt;
+    text-align: center;
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    color: white;
+    padding-top: 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type ='text'], select {
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+form section {
+    display: block;
+}
+
+#check {
+    display: inline-block;
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    color: white;
+}
+
+#Send {
+    display: inline-block;
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    margin-left: 50px;
+    height: 30px;
+    width: 50px;
+    color: darkblue;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#kishor {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    color: darkblue;
+    margin-top: 50px;
+}
+
+#facebook {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: center;
+}
+
+#website {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 420px;
+    position: center;
+}
+
+#facebook:hover {
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+
+#website:hover {
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+
+#credits {
+    font-family: "Alef", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    color: darkblue;
+    margin-top: 50px;
+}
