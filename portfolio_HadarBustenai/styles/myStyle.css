@@ -1,0 +1,252 @@
+
+body {
+    direction: rtl;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Alef;
+}
+
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+header {
+    margin-top: 15px;
+}
+/*עיצוב לוגו*/
+#me {
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 200px;
+    margin-left: 10px;
+}
+/*עיצוב כותרת אתר ראשית*/
+h1 {
+    font-size: 18pt;
+    color: #667854;
+    padding-top: 20px;
+}
+/*עיצוב דף הבית*/
+
+#navrashi {
+    margin-right: 200px;
+}
+
+    #navrashi ul {
+        padding: 10px;
+        margin: 30px;
+        list-style: none;
+    }
+
+        #navrashi ul li {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+            #navrashi ul li a {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 16px;
+                display: block;
+                width: 150px;
+                height: 80px;
+                text-align: center;
+                padding-top: 70px;
+                border-radius: 200px;
+                background-color: rgba(86, 143, 138, 0.5);
+            }
+
+                #navrashi ul li a.selected {
+                    background-color: #76B295;
+                    box-shadow: 5px 5px 15px 2px #568F8A;
+                }
+
+                #navrashi ul li a:hover {
+                    background-color: #76B295;
+                    box-shadow: 5px 5px 15px 2px #568F8A;
+                }
+
+                #navrashi ul li a.selected:hover {
+                    background-color: #BED6BA;
+                }
+
+                #navrashi ul li a:active {
+                    background-color: #BED6BA;
+                }
+
+#sectionrashi {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 15px 2px #568F8A;
+    height: 150px;
+    width: 800px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80px;
+    padding: 40px 30px;
+}
+
+    #sectionrashi p {
+        color: #667854;
+        font-size: 18pt;
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 100px;
+    }
+
+/*עיצוב דף פנימי*/
+
+nav ul {
+    padding: 10px;
+    margin: 30px;
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            width: 140px;
+            height: 30px;
+            text-align: center;
+            padding-top: 10px;
+            background-color: #BED6BA;
+            border-radius: 30px 30px 30px 30px;
+        }
+
+            nav ul li a.selected {
+                background-color: #76B295;
+            }
+
+            nav ul li a:hover {
+                background-color: #76B295;
+            }
+
+            nav ul li a.selected:hover {
+                background-color: #568F8A;
+            }
+
+            nav ul li a:active {
+                background-color: #568F8A;
+            }
+
+.sectionpnimi {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 15px 2px #568F8A;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 80px;
+    padding: 35px;
+}
+
+
+    .sectionpnimi h2 {
+        color: #667854;
+        font-size: 18pt;
+    }
+
+
+    .sectionpnimi p {
+        color: #667854;
+        font-size: 14pt;
+        margin-top: 15px;
+    }
+/*עיצוב תמונות ווידיאו עמודים פנימיים*/
+
+.projectsimg, #video {
+    width: 350px;
+    height: auto;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #BED6BA;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+    .projectsimg:hover, #video:hover {
+        opacity: 0.6;
+        box-shadow: 0 0 2px 1px rgba(86, 143, 138, 0.7);
+    }
+
+/*עיצוב פוטר*/
+
+footer {
+    position: relative;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: #BED6BA;
+    text-align: center;
+}
+
+#facebook {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+#google {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#facebook:hover {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+#google:hover {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+/*עיצוב טופס צור קשר*/
+
+form {
+    padding: 10px 30px;
+    color: #5B8772;
+}
+
+input[type ='text'], input[type ='submit'], #yourText {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Send {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    color: #5B8772;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+/*עיצוב נגן אודיו*/
+audio {
+    margin-right: 480px;
+}
